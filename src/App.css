@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.box-left{
+    margin: 5%;
+    width: 40%;
+    float: left;
+}
+.box-right{
+    float: right;
+    width: 40%;
+    margin: 5%;
+}
+.add-box{
+    display: flex;
+    padding:0 20px;
+    margin-bottom: 20px;
+}
+.add-box input{
+    margin-right: 20px;
+}
+.done-item{
+    color: gray;
+    text-decoration: line-through;
+}
+.count-list{
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+}
+.count-list>div{
+    margin: 10px;
+}
